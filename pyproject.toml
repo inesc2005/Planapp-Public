@@ -1,0 +1,15 @@
+[project]
+name = "planapp-iscte-sintra"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "supabase",
+    "python-dotenv",
+    "pandas",
+    "pyarrow",
+    "scikit-learn>=1.7.2",
+    "streamlit>=1.35.0",
+    "plotly>=5.22.0",
+]

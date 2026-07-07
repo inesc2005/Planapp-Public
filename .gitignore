@@ -1,0 +1,19 @@
+# Environment variables (credentials)
+.env
+
+# Python virtual environment
+.venv
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Data with Cision content (NDA)
+data_sample/
+data/bronze/
+data/silver/
+data/gold/
+data/evaluation/*.parquet
+
+# Large model files
+*.bin
+*.safetensors
